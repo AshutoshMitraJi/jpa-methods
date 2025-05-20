@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: jpa-methods
+    datasource:
+        url: jdbc:mysql://localhost/jpa_methods
+        username: root
+        password: root
+    jpa:
+        hibernate:
+            ddl-auto: update
